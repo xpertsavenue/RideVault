@@ -21,7 +21,7 @@
    dass sie unabhängig ist. Die Protokollbeschreibungen in `docs/` stammen aus eigener Analyse der Geräte-Kommunikation;
    keine Originaldateien, Protokolldefinitionen oder Apps der Hersteller ins Repository legen. Bei Zweifeln rechtlich beraten lassen.
 
-Screenshots liegen unter `fastlane/metadata/android/<Sprache>/images/phoneScreenshots/` (aktuell deutsch, in beiden Sprachordnern).
+Screenshots liegen unter `fastlane/metadata/android/<Sprache>/images/phoneScreenshots/` (`de-DE`: deutsch, 5 Bilder; `en-US`: englisch, 4 Bilder).
 
 ## F-Droid
 1. Repository auf GitHub bereitstellen, Tag `v1.0.0` setzen. (F-Droid baut von jedem öffentlichen Git-Repository; der Eintrag selbst kommt ins GitLab-Projekt von F-Droid.)
@@ -48,6 +48,15 @@ Grob ein bis zwei Tage Vorbereitung plus Wartezeit, weitgehend einmalig.
 - **Risiken:** Nennung der Herstellernamen im Eintrag (Markenrecht), Esri-Kacheln, Bluetooth-Berechtigungen (nur „in der Nähe“, kein Standort).
 - **Ablauf:** interner Test → geschlossener Test (14 Tage) → Produktion beantragen → Prüfung durch Google (Stunden bis Tage).
 - Alternativ lässt sich dieselbe signierte APK zusätzlich auf GitHub Releases anbieten.
+
+## Release anlegen und signieren
+1. Version in `app/build.gradle.kts` erhöhen (nur bei neuen Versionen) und `fastlane/metadata/android/{en-US,de-DE}/changelogs/<versionCode>.txt` anlegen.
+2. Alles committen, dann `tools/release.sh` (legt das Tag `v<versionName>` lokal an) und danach `tools/release.sh --push` bzw. `git push origin main && git push origin v<versionName>`.
+3. Signierte APK für GitHub Releases: `keystore.properties` im Projektstamm anlegen (nicht einchecken; wird von `.gitignore` ausgeschlossen)
+   mit `storeFile`, `storePassword`, `keyAlias`, `keyPassword`, dann `./gradlew assembleRelease`. Ergebnis: `app/build/outputs/apk/release/app-release.apk`.
+   Ohne `keystore.properties` entsteht nur `app-release-unsigned.apk`.
+4. Auf GitHub unter Releases das Tag auswählen, Text einfügen, die signierte APK anhängen.
+   F-Droid signiert seine Version selbst; die GitHub-APK trägt deinen Schlüssel (Updates zwischen beiden Quellen sind daher nicht möglich).
 
 ## Bauen
 ```
