@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+*.apk
+*.xapk
+.kotlin/
+# Eigene Testdaten (echte Fahrten mit Ortsangaben) und Signaturschlüssel gehören nicht ins öffentliche Repository
+testdata/
+keystore.properties
+*.jks
+*.keystore
+# Fremde Original-Apps, die nur zur Analyse des Protokolls dienten
+*.xapk
+*.apk

@@ -1,0 +1,23 @@
+RideVault imports the rides from your bike computer over Bluetooth and keeps them on your phone. Nothing is uploaded: there is no account, no cloud and no tracking. Your rides stay on your device.
+
+<b>Supported devices</b>
+BIKEVEE / BKV bike computers and iGPSPORT bike computers (tested with the BSC200). RideVault is an independent project and is not affiliated with these manufacturers.
+
+<b>Rides</b>
+• Import rides over Bluetooth with a progress display
+• Map with route, charts for speed, altitude, heart rate, cadence and power
+• Tags, archive, sorting and grouping, statistics by month and year
+• Export as GPX or TCX, a ZIP of many rides, or a picture to share
+• Optional export of a ride to Health Connect, and removal again (only when you tap it)
+• Backup and restore of your whole database
+
+<b>Device (iGPSPORT)</b>
+• Change settings and arrange the data pages like in the manufacturer's app
+• Send routes (GPX) to the device, choose the active route, rename and delete routes
+• Battery and storage, live values while riding
+
+<b>Privacy</b>
+The only internet access is for map tiles (OpenStreetMap and others). Ride data never leaves your phone unless you export it.
+
+<b>Languages</b>
+English, German, French, Spanish, Italian, Dutch, Polish, Czech, Portuguese.

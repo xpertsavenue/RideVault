@@ -1,0 +1,32 @@
+# Entwurf für den Eintrag im F-Droid-Repository "fdroiddata" (Datei metadata/io.github.xpertsavenue.ridevault.yml).
+# Der Quellcode bleibt auf GitHub; F-Droid baut von dort. Nur dieser Eintrag wird im GitLab-Projekt fdroiddata eingereicht.
+Categories:
+  - Sports & Health
+License: MIT
+AuthorName: xpertsavenue
+SourceCode: https://github.com/xpertsavenue/RideVault
+IssueTracker: https://github.com/xpertsavenue/RideVault/issues
+
+AutoName: RideVault
+
+RepoType: git
+Repo: https://github.com/xpertsavenue/RideVault.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1
+
+# Die Satellitenkacheln kommen von Esri (nicht freier Netzwerkdienst)
+AntiFeatures:
+  NonFreeNet:
+    en-US: Optional satellite map tiles are loaded from Esri.
+    de-DE: Optionale Satellitenkarten werden von Esri geladen.

@@ -1,0 +1,1 @@
+Erste Version: Fahrten von BIKEVEE- und iGPSPORT-Computern importieren, Karte und Diagramme, Statistik, Tags, Archiv, GPX/TCX-Export, Geräteeinstellungen, Strecken und optionaler Health-Connect-Export.

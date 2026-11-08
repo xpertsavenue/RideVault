@@ -1,0 +1,23 @@
+RideVault importiert die Fahrten deines Fahrradcomputers per Bluetooth und bewahrt sie auf deinem Handy auf. Es wird nichts hochgeladen: kein Konto, keine Cloud, kein Tracking. Deine Fahrten bleiben auf deinem Gerät.
+
+<b>Unterstützte Geräte</b>
+BIKEVEE-/BKV-Fahrradcomputer und iGPSPORT-Fahrradcomputer (getestet mit dem BSC200). RideVault ist ein unabhängiges Projekt und steht in keiner Verbindung zu diesen Herstellern.
+
+<b>Fahrten</b>
+• Fahrten per Bluetooth importieren, mit Fortschrittsanzeige
+• Karte mit Strecke, Diagramme für Geschwindigkeit, Höhe, Puls, Trittfrequenz und Leistung
+• Tags, Archiv, Sortieren und Gruppieren, Statistik nach Monat und Jahr
+• Export als GPX oder TCX, als ZIP mehrerer Fahrten oder als Bild zum Teilen
+• Optionaler Export einer Fahrt nach Health Connect und späteres Entfernen (nur auf Tipp)
+• Sicherung und Wiederherstellung der gesamten Datenbank
+
+<b>Gerät (iGPSPORT)</b>
+• Einstellungen ändern und Datenseiten wie in der Hersteller-App anordnen
+• Strecken (GPX) aufs Gerät senden, aktive Strecke wählen, Strecken umbenennen und löschen
+• Akku und Speicher, Livewerte während der Fahrt
+
+<b>Datenschutz</b>
+Der einzige Internetzugriff dient den Kartenkacheln (OpenStreetMap u. a.). Fahrdaten verlassen dein Handy nur, wenn du sie exportierst.
+
+<b>Sprachen</b>
+Deutsch, Englisch, Französisch, Spanisch, Italienisch, Niederländisch, Polnisch, Tschechisch, Portugiesisch.

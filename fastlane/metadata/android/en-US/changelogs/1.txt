@@ -1,0 +1,1 @@
+First release: import rides from BIKEVEE and iGPSPORT bike computers, map and charts, statistics, tags, archive, GPX/TCX export, device settings, routes and optional Health Connect export.

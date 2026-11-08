@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Bilder zum Teilen: werden nur kurz im Cache abgelegt -->
+    <cache-path name="share" path="share/" />
+</paths>
