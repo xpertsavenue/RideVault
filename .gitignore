@@ -14,3 +14,6 @@ keystore.properties
 # Fremde Original-Apps, die nur zur Analyse des Protokolls dienten
 *.xapk
 *.apk
+
+# Interne Notizen
+docs/VEROEFFENTLICHUNG.md
